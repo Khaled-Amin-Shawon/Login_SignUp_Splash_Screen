@@ -3,7 +3,7 @@ import 'package:login_signup_screens/login.dart';
 import 'package:login_signup_screens/splash_screen.dart';
 import 'dart:async';
 import 'package:flutter/services.dart';
-import '''package:flutter_native_splash/flutter_native_splash.dart''';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
 //import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 Future<void> main() async {
@@ -14,6 +14,7 @@ Future<void> main() async {
   runApp(const MyApp());
   FlutterNativeSplash.remove();
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
